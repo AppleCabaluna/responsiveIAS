@@ -1,0 +1,76 @@
+body{
+    background-color: #5a8a95;
+}
+.bon {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 100px;
+    padding-top: 80px;
+    
+}
+.bon {
+    width: 300px;
+    height: 400px;
+
+}
+.info{
+    padding-left: 100px;
+    width: 20px;
+    height: 20px;
+}
+.left{
+    color: white;
+}
+.HeadProfile{
+    display: flex;
+}
+.right{
+    padding: 100px;
+}
+.first{
+    font-size: 60px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    
+}
+.sub{
+    color: white;
+}
+h1{
+    color: white;
+    
+}
+.laack{
+    padding-left: 50px ;
+}
+p{
+    margin: 0;
+}
+
+@media screen and (max-width: 600px){
+     .bon {
+        max-width: 80%;
+        max-height: 200px;
+        padding-left: 10px;
+        padding-top: 30px;
+}
+     .info{
+        padding-left: 10px;
+        width: 20px;
+        height: 30px;
+ }
+     
+
+     .first{
+        font-size: 20px;
+        color: white;
+        font-family: bold;
+     }  
+       .laack{
+        padding-left:10px;
+   }  
+      .right{
+        padding: 20px;
+   
+    }
+}
